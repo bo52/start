@@ -132,12 +132,11 @@
 				id+=s<10?'0'+s.toString():s.toString();
 				id+=today.getMilliseconds().toString();
 
-
 				// Встраиваем полученное сообщение в блок с сообщениями
 				// У блока с сообщением будет тот класс, который соответвует пользователю что его отправил
 				$all_messages.append("<div class='alert alert-" + data.className + "'><b>" + data.name + "</b>: " + data.mess +
-				(data.name.toLowerCase()=='master'?"<br><a href='http://localhost/pages/new-page' class='btn btn-success'>Add</a>":"")+
-				(data.mess.toLowerCase().indexOf("oracle")>-1?"<br><a target='_blank' href='http://localhost/home-2/oracle-install'>Oracle Install</a>":"")+"</div>");
+				(data.name.toLowerCase()=='master'?"<br><a href='http://localhost/new-page-"+id+"' class='btn btn-success'>Add</a>":"")+
+				(data.mess.toLowerCase().indexOf("oracle")>-1?"<br><a target='_blank' href='http://localhost/new-page-1'>Oracle Install</a>":"")+"</div>");
 			});
 
 		});
