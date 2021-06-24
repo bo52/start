@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T12:03:34.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="tlG4ZIGkx3HP6i7R2r5O" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T12:06:59.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="uWh4pXWcALCBNZjPaZGF" version="14.5.10" type="github">
   <diagram id="AikCdZ-WhjD60J_H7UAM" name="Страница 1">
     <mxGraphModel dx="1364" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-2" value="target" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-2" value="target" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="20" y="150" width="220" height="60" as="geometry">
             <mxRectangle x="20" y="150" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-3" value="создать элемент запуска в wordpress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RZI_0KJps5jkm5kD7S_W-2">
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-3" value="создать элемент запуска в wordpress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="RZI_0KJps5jkm5kD7S_W-2" vertex="1">
           <mxGeometry y="30" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-4" value="teg" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-4" value="teg" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="300" y="145" width="270" height="90" as="geometry">
             <mxRectangle x="300" y="150" width="50" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-5" value="1.строки с элементами teg&lt;br&gt;2.переход на окно teg&lt;br&gt;3.ввод параметра текстом в элементе teg" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RZI_0KJps5jkm5kD7S_W-4">
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-5" value="1.строки с элементами teg&lt;br&gt;2.переход на окно teg&lt;br&gt;3.ввод параметра текстом в элементе teg" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="RZI_0KJps5jkm5kD7S_W-4" vertex="1">
           <mxGeometry x="20" y="30" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZI_0KJps5jkm5kD7S_W-3" target="RZI_0KJps5jkm5kD7S_W-4">
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RZI_0KJps5jkm5kD7S_W-3" target="RZI_0KJps5jkm5kD7S_W-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-7" value="teg" style="swimlane;align=center;" vertex="1" parent="1">
-          <mxGeometry x="600" y="145" width="420" height="65" as="geometry" />
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-7" value="teg" style="swimlane;align=center;" parent="1" vertex="1">
+          <mxGeometry x="600" y="145" width="520" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-8" value="1.вложенность тегов: массив элементов teg [...] или в html как окнами&lt;br&gt;2.редактирование свойств элементов тега с возможностью шаблонов" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RZI_0KJps5jkm5kD7S_W-7">
-          <mxGeometry x="10" y="30" width="410" height="30" as="geometry" />
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-8" value="1.вложенность тегов: массив элементов teg [...] или в html как окнами&lt;br&gt;2.редактирование свойств элементов тега с возможностью шаблонов&lt;br&gt;3.подключение классов и событий номерами с информированием и переходами окнами" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="RZI_0KJps5jkm5kD7S_W-7" vertex="1">
+          <mxGeometry x="10" y="20" width="510" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZI_0KJps5jkm5kD7S_W-5" target="RZI_0KJps5jkm5kD7S_W-7">
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="RZI_0KJps5jkm5kD7S_W-5" target="RZI_0KJps5jkm5kD7S_W-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
