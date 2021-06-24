@@ -1,16 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T11:50:55.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="-oOPIG0tp89PYQ3SGOI0" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T11:57:19.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="1Cme6cPr61mkx7AQhGJ7" version="14.5.10" type="github">
   <diagram id="AikCdZ-WhjD60J_H7UAM" name="Страница 1">
     <mxGraphModel dx="1364" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RZI_0KJps5jkm5kD7S_W-2" value="target" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="20" y="150" width="200" height="60" as="geometry">
+          <mxGeometry x="20" y="150" width="220" height="60" as="geometry">
             <mxRectangle x="20" y="150" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RZI_0KJps5jkm5kD7S_W-3" value="создать элемент запуска" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RZI_0KJps5jkm5kD7S_W-2">
-          <mxGeometry x="20" y="30" width="150" height="20" as="geometry" />
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-3" value="создать элемент запуска в wordpress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RZI_0KJps5jkm5kD7S_W-2">
+          <mxGeometry y="30" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-4" value="teg" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="300" y="145" width="190" height="90" as="geometry">
+            <mxRectangle x="300" y="150" width="50" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-5" value="1.строки с элементами teg&lt;br&gt;2.переход на окно teg&lt;br&gt;3.ввод параметра текстом" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RZI_0KJps5jkm5kD7S_W-4">
+          <mxGeometry x="20" y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RZI_0KJps5jkm5kD7S_W-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZI_0KJps5jkm5kD7S_W-3" target="RZI_0KJps5jkm5kD7S_W-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
