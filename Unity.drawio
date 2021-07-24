@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T08:24:48.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="wg7Wb2mPyVz0beAa9xi0" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T08:28:19.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="62nvEye0jV-cuimVaX6S" version="14.9.2" type="github">
   <diagram id="mvWnHaUZkxt0yaKvPiz3" name="Страница 1">
     <mxGraphModel dx="970" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EqCP4BVdxGuSAQ8ki5jC-1" value="View" style="swimlane;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="590" y="140" width="60" height="23" as="geometry">
-            <mxRectangle x="120" y="190" width="200" height="200" as="alternateBounds" />
+          <mxGeometry x="480" y="162.75" width="60" height="23" as="geometry">
+            <mxRectangle x="590" y="140" width="200" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EqCP4BVdxGuSAQ8ki5jC-2" value="name.unity&lt;br&gt;сцена по тестированию задачи" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="EqCP4BVdxGuSAQ8ki5jC-1">
@@ -15,11 +15,25 @@
         <mxCell id="EqCP4BVdxGuSAQ8ki5jC-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=23;" edge="1" parent="1" source="EqCP4BVdxGuSAQ8ki5jC-3" target="EqCP4BVdxGuSAQ8ki5jC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EqCP4BVdxGuSAQ8ki5jC-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=23;" edge="1" parent="1" source="EqCP4BVdxGuSAQ8ki5jC-3" target="EqCP4BVdxGuSAQ8ki5jC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EqCP4BVdxGuSAQ8ki5jC-3" value="World" style="swimlane;fillColor=none;gradientColor=none;align=center;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="51.5" width="230" height="200" as="geometry" />
+          <mxGeometry x="210" y="100" width="230" height="148.5" as="geometry">
+            <mxRectangle x="210" y="100" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EqCP4BVdxGuSAQ8ki5jC-4" value="world.cs&lt;br&gt;&lt;div&gt;&lt;span&gt;MonoBehaviour&lt;br&gt;класс раскрывает задачу&lt;br&gt;&lt;br&gt;World привязывают к дефолтному&amp;nbsp;&lt;/span&gt;&lt;/div&gt;игровому объекту World в&lt;div&gt;&lt;span&gt;View&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="EqCP4BVdxGuSAQ8ki5jC-3">
           <mxGeometry x="10" y="38.5" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EqCP4BVdxGuSAQ8ki5jC-6" value="Gui" style="swimlane;fillColor=none;gradientColor=none;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EqCP4BVdxGuSAQ8ki5jC-7" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;[CustomEditor(typeof(World))]&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public class gui : Editor&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {...}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="EqCP4BVdxGuSAQ8ki5jC-6">
+          <mxGeometry x="10" y="50" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqCP4BVdxGuSAQ8ki5jC-9" value="Изменить Инспектор игрового объекта World" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="EqCP4BVdxGuSAQ8ki5jC-6">
+          <mxGeometry y="30" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
